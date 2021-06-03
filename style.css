@@ -72,7 +72,6 @@ main {
 img {
    margin: 0 auto;
    max-width: 100%;
-   /* max-height: 100%; */
 }
 
 /* ***************************************** */
@@ -167,7 +166,6 @@ img {
       grid-template-rows: 20% 80%;
    }
    .image {
-      /* border: 2px dotted black; */
       align-items: center;
       background-image: url("./images/illustration-mockups.svg");
       background-size: contain;
@@ -182,7 +180,6 @@ img {
 
    .right {
       padding-left: 2rem;
-      /* border: 2px dotted black; */
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -193,7 +190,6 @@ img {
 
    .text {
       margin-top: 35%;
-      /* border: 2px dotted red; */
       width: 100% !important;
       height: 50%;
       text-align: left;
@@ -209,14 +205,12 @@ img {
 
    .text p {
       height: 35%;
-      /* border: 2px dotted green; */
       margin: 1rem 0;
       padding-top: 1rem;
       font-size: 1rem;
    }
 
    .text button {
-      /* border: 2px dotted green; */
       height: 30%;
       height: 3rem;
       width: 11rem;
@@ -229,7 +223,6 @@ img {
    }
 
    .icons {
-      /* border: 2px dotted red; */
       width: 100%;
       height: 15%;
       align-self: flex-end;
@@ -244,7 +237,8 @@ img {
    }
 
    .icon:hover {
-       border: 1px solid var(--soft-magenta);
+      border: 1px solid var(--soft-magenta);
       color: var(--soft-magenta);
+      cursor: pointer;
    }
 }
